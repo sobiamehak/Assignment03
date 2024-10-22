@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+    container:{
+      center:true,
+      padding: "15px"
+    },
+    color:{
+      accent:"f94c25"
+    }
+
     },
   },
   plugins: [],
