@@ -7,12 +7,12 @@ const Hero = () => {
     
     <div className='relative min-h-screen' >
       
-        <Image className='lg:w-[680px] xl:w-[520px] h-auto absolute right-10 top-20 
+        <Image className='lg:w-[580px] xl:w-[620px] h-auto absolute right-0 top-10
         -z-10 mt-10 rounded-full ' src="/largep.avif"
-         width={600} height={600} alt='hero bg '/>
+         width={1000} height={600} alt='hero bg '/>
         <Navbar />
-         <div className='container h-[calc(100vh-120px)] grid items-center'>
-            <div className='space-y-8  w-fit p-10 m-20 mt-40 '>
+         <div className='container h-[calc(100vh-120px)] grid  items-center'>
+            <div className='space-y-4  w-fit p-4 m-20 mt-40 '>
                 <p className='uppercase font-medium text-black'>wide options of choice</p>
                 <h2 className='text-4xl sm:text-6xl font-bold'>
                     Ideal <span className='text-cyan-400'>Pizza</span>

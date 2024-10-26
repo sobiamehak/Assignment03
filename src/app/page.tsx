@@ -1,7 +1,6 @@
 
 import Hero from "./components/Hero";
 import Feature from "./components/Feature";
-import Section from "./components/Section";
 import Footer from "./components/Footer";
 export default function Home() {
   return (
@@ -9,7 +8,7 @@ export default function Home() {
     <main>
    
       <Hero />
-      <Section />
+      
       <Feature />
       <br />
    </main>

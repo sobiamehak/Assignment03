@@ -15,18 +15,18 @@ export default function Footer() {
       <div className="mb-4 md:mb-0">
         <h3 className="text-lg font-semibold">Quick Links</h3>
         <ul className="mt-2">
-          <li><a href="#" className="text-gray-400 hover:text-white">Home</a></li>
-          <li><a href="#" className="text-gray-400 hover:text-white">Menu</a></li>
-          <li><a href="#" className="text-gray-400 hover:text-white">About Us</a></li>
-          <li><a href="#" className="text-gray-400 hover:text-white">Contact</a></li>
+          <li>Home</li>
+          <li>Menu</li>
+          <li>About Us</li>
+          <li>Contact</li>
         </ul>
       </div>
       <div className="mb-4 md:mb-0">
         <h3 className="text-lg font-semibold">Follow Us</h3>
         <ul className="mt-2 flex space-x-4">
-          <li><a href="#" className="text-gray-400 hover:text-white">Facebook</a></li>
-          <li><a href="#" className="text-gray-400 hover:text-white">Instagram</a></li>
-          <li><a href="#" className="text-gray-400 hover:text-white">Twitter</a></li>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
         </ul>
       </div>
     </div>
